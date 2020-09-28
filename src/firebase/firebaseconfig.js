@@ -1,7 +1,8 @@
 import firebase from "firebase";
+import "dotenv";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA1aMjo2w4KJX1-huF7atNvAaVzrBljeIY",
+  apiKey: process.env.APIKey,
   authDomain: "aclone-4da0f.firebaseapp.com",
   databaseURL: "https://aclone-4da0f.firebaseio.com",
   projectId: "aclone-4da0f",
