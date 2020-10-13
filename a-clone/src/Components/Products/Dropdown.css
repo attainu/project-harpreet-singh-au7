@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+}
+
+.dd-list-item {
+  list-style: none;
+}
+.dd-list {
+  list-style: none;
+}
+
+button {
+  border-style: unset;
+}
+.dd-header-title {
+  display: flex;
+  justify-content: space-between;
+}
+h3 {
+  padding: 2px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}

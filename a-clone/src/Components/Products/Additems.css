@@ -1,0 +1,106 @@
+.addItems {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addItems_logo {
+  object-fit: cover;
+  height: 20vh;
+  width: 50vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.addItems_header {
+  font-weight: 500;
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 10px;
+  border: 1px groove lightgrey;
+  border-radius: 25px;
+  box-shadow: 2px lightgrey;
+}
+.form_container {
+  width: 550px;
+  box-shadow: 2px lightgrey;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 0.5px solid lightgrey;
+}
+.form_container > form > h5 {
+  margin-bottom: 5px;
+}
+.form_container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 100%;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+.select-items div,
+.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.additems_submit {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  border-radius: 2px;
+  height: 30px;
+  width: 100%;
+}

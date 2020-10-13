@@ -1,0 +1,3 @@
+.non-protected > Header {
+  display: none;
+}

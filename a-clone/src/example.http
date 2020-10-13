@@ -1,0 +1,11 @@
+POST http://localhost:8080/additems
+Content-Type: application/json
+
+{
+       "title": "sample mobile phone",
+        "price": 14.5,
+        "ratings": 4,
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/31/AmazonDevices/LEEN/GW_Hero/Main_Desktop_1500x600_DS._CB404300086_.jpg",
+        "category": "Mobile Phones",
+        "id": "1562"
+}
